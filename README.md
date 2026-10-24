@@ -45,3 +45,7 @@ Material principal: Juan Perán Mazón, Fundamentos algebraicos para la IA, UNED
 OpenMAIC (commit ec176e84d450023e49a7e220d1b6974f5eb0bfce) se ha examinado como referencia de planificación, escenas, práctica y exportación HTML; no se instala ni se usa como motor del curso. The Record Institute aporta la referencia editorial. ManimGX fue evaluado; las animaciones de la web son SVG propios. KaTeX 0.16.22 está incluido con licencia MIT en `assets/vendor/katex/LICENSE`.
 
 Los archivos de `scripts` permiten mantener el contenido y las comprobaciones durante desarrollo. No necesitas ejecutarlos ni instalar sus herramientas para estudiar en la web.
+
+## Publicación en Cloudflare
+
+La configuración de Workers y los pasos para publicar desde GitHub están en [CLOUDFLARE.md](CLOUDFLARE.md). `npm run build` prepara la carpeta `dist`; estudiar el curso local sigue sin requerir instalación.

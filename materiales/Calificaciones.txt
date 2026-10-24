@@ -1,0 +1,14 @@
+-----------------------------------------------------------------------------------------------
+Tendremos en cuenta las siguientes calificaciones:
+
+Np = nota de la prueba presencial
+Npec = nota de la PEC, realizada en diciembre
+Npra = representa la nota de la práctica entregada en enero, para la convocatoria ordinaria, y la nota de la práctica entregada en septiembre, para la convocatoria extraordinaria.
+Nf = nota final
+Las pruebas no realizadas se califican con cero puntos.
+
+CALIFICACIÓN DE LAS CONVOCATORIAS ORDINARIA Y EXTRAORDINARIA
+Si Npra < 2.5, entonces Nf = suspenso.
+Si Npra ≥ 2.5 y Np < 4, entonces Nf = Np.
+Si Npra ≥ 2.5 y Np ≥ 4, entonces Nf = mín { Np + 0.1*Npec+ 0.1*Npra, 10}.
+------------------------------------------------------------------------------------------------------

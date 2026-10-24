@@ -1,0 +1,17 @@
+/node_modules/
+/dist/
+/.wrangler/
+/.playwright-mcp/
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.log
+__pycache__/
+*.pyc
+/premium-audit.json
+/revision/*
+!/revision/auditoria-fuentes.md

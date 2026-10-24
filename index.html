@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Curso local de Fundamentos algebraicos para la IA. Lecciones, ejercicios interactivos, mapas mentales y exámenes.">
+<title>Atlas de Álgebra · Fundamentos para la IA</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/vendor/katex/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/vendor/katex/katex.min.js"></script>
+<script defer src="assets/content.js"></script><script defer src="assets/exercises.js"></script>
+<script defer src="assets/plan.js"></script><script defer src="assets/engine.js"></script>
+<script defer src="assets/labs.js"></script><script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="site-header">
+<a class="brand" href="#inicio" aria-label="Atlas de Álgebra, inicio"><span class="brand-mark" aria-hidden="true">A<span>⊕</span></span><span>ATLAS DE ÁLGEBRA<small>FUNDAMENTOS PARA LA IA</small></span></a>
+<nav aria-label="Navegación principal"><a href="#curso">Curso</a><a href="#plan">Plan</a><a href="#laboratorio">Laboratorio</a><a href="#examenes">Exámenes</a></nav>
+<button onclick="AtlasActions.theme()" id="theme" class="icon-button" aria-label="Activar lectura nocturna" title="Cambiar tema">◐</button>
+</header>
+<div id="storage-warning" class="storage-warning" hidden>El navegador no permite guardar aquí. Puedes seguir estudiando y exportar tu progreso antes de cerrar.</div>
+<main id="main" tabindex="-1"></main>
+<footer class="site-footer"><span>ÁLGEBRA · UNED · 2026/27</span><p>Un cuaderno para comprender, practicar y volver a intentarlo.</p><div><a href="#fuentes">Materiales y criterios</a><a href="#progreso">Tu progreso</a><button onclick="AtlasActions.print()" id="print" class="text-button">Imprimir esta vista</button></div></footer>
+<div id="status" class="toast" role="status" aria-live="polite"></div>
+<dialog id="confirmation" aria-labelledby="dialog-title" aria-describedby="dialog-body"><form method="dialog" novalidate><h2 id="dialog-title">Repetir examen</h2><p id="dialog-body"></p><div class="actions"><button value="cancel">Conservar intento</button><button value="yes" class="primary">Crear nuevo intento</button></div></form></dialog>
+<noscript><p class="notice">Activa JavaScript en tu navegador para utilizar los correctores locales. No necesitas conexión a Internet.</p></noscript>
+</body></html>

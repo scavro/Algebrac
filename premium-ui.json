@@ -1,0 +1,11 @@
+{
+  "profile":"product-admin",
+  "sourceRoots":["assets","index.html"],
+  "locale":"es-ES",
+  "canonicalMap":"UX-CONTRACT.md",
+  "requiredCapabilities":["Select/Listbox","Form","Scrollbar","Toast"],
+  "ownership":{"Select/Listbox":"native"},
+  "requiredCommands":[],
+  "commands":{},
+  "evidence":{"forms":"revision/engine-adversarial-results.json","persistence":"revision/app-independent-results.json"}
+}

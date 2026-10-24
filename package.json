@@ -1,0 +1,18 @@
+{
+  "name": "algebrac",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atlas de Álgebra: curso estático para Cloudflare Workers Static Assets",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build_site.cjs",
+    "test": "npm run build && node scripts/check_deploy.cjs && node scripts/check_static.cjs",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:check": "npm run build && wrangler deploy --dry-run --outdir .wrangler/dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
+}
